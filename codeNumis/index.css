@@ -1,0 +1,183 @@
+.button1 {
+    background-color: rgb(186, 65, 130);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: absolute;
+    margin-top: -102px;
+    width: 200px;
+    margin-left: 107px;
+    font-family: Calibri Light, Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .button3 {
+    background-color: rgb(186, 65, 130);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: absolute;
+    margin-top: -102px;
+    width: 200px;
+    margin-left: -107px;
+    font-family: Calibri Light, Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+
+
+/* ANIMACIJE OD STRANICE */
+#button button:hover {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;  
+  }
+@keyframes example {
+    from {background-color: rgba(63, 46, 140,0.95);}
+    to {background-color: rgb(156, 35, 100);}
+  }
+#button2 button:hover {
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;  
+  }
+@keyframes example2 {
+    from {background-color: rgba(63, 46, 140,0.95);}
+    to {background-color: rgb(156, 35, 100);}
+  }
+#codebanner img:hover {
+    animation-name: example3;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;   
+  }
+@keyframes example3 {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+/* ANIMACIJE OD STRANICE */
+
+
+
+.banner {
+    background-color: rgb(156, 35, 100);
+    color: white;
+    font-family: Calibri;
+    font-size: 35px;
+    width: 103%;
+    height: 80px;
+    margin-left: -8px;
+    margin-top: -40px;
+    position: relative;
+}
+.h22 {
+  margin-top: 15px;
+  font-family: Consolas, Calibri Light, Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(250,150,0);
+  background-color: rgb(0,60,255);
+  width: 102%;
+  margin-left: -8px;
+}
+.h21 {
+  margin-top: 50px;
+  font-family: Consolas, Calibri Light, Arial, sans-serif;
+  font-size: 50px;
+  color: rgb(250,150,0);
+  background-color: rgb(0,60,255);
+  width: 102%;
+  margin-left: -8px;
+}
+.hr2 {
+  margin-top: 20px;
+}
+a {
+  color: rgba(0,0,0,0);
+}
+img {
+    width: 32%;
+    border: 3px solid white;
+    margin-top: -11px;
+    position: relative;
+}
+
+body {
+    background-color: rgb(0,80,120);
+    background-image: linear-gradient(to right, rgb(156, 35, 100), rgb(63, 46, 140));
+}
+
+hr {
+    height: 2px;
+    background-color:  white;
+    color: white;
+    margin-left: -8px;
+    width: 102%;
+    margin-top: 0px;
+}
+
+h1{
+    color: white;
+    font-family: Consolas, Calibri Light, Arial, sans-serif;
+    font-size: 60px;
+}
+h3 {
+  color: black;
+  font-family: Consolas, Calibri Light, Arial, sans-serif;
+  font-size: 80px;
+  background-color: rgb(250,150,0);
+  width: 750px;
+}
+h4 {
+  margin-top: -3px;
+  color: black;
+  font-family: Consolas, Calibri Light, Arial, sans-serif;
+  font-size: 30px;
+  background-color: rgb(250,150,0);
+  width: 535px;
+}
+h5 {
+  margin-top: -3px;
+  color: black;
+  font-family: Consolas, Calibri Light, Arial, sans-serif;
+  font-size: 25px;
+  background-color: rgb(250,150,0);
+  width: 445px;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    border: white solid 5px;
+    width: 500px;
+    height: 200px;
+    
+}
+
+#line {
+  color: red;
+}
+
+
+
+

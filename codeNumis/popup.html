@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="banner">
+        <a href="index.html">
+            <h1>&nbsp;&nbsp;&lt;&gt;&nbsp;NumisCode&nbsp;</h1>
+        </a>
+        <div id="button">
+            <center><button onclick="window.open('index2.html','_self');" class="button1">Pricing</button></center>
+        </div>
+        <div id="button2">
+            <center><button onclick="window.open('aboutus.html','_self');" class="button3">About Us</button></center>
+        </div>
+    </div>
+    <hr>
+    <div class="input">
+        <form>
+            <center><img src="https://learning-tribes.com/wp-content/uploads/2021/01/paypal-logo-png-transparent.png"></center>
+            <center><h2>Username</h2></center>
+            <center><input></center>
+            <center><h2>Password</h2></center>
+            <center><input type="password" id="myInput"></center>
+            <input type="checkbox" onclick="myFunction()"><h3>Show password</h3>
+            <center><button>Log in</button></center>
+        </form>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+                }
+            } 
+    </script>
+</body>
+</html>
